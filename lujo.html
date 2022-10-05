@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="lujo.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUJO</title>
+  </head>
+  <body>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      
+      <div class="container-fluid" id="mainnav">
+        <img id="navimg"
+        src="images/296036366_108358878638735_1929393914407539603_n.png"
+        alt=""
+      />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="navmar">
+            <a class="nav-link active" id="navclr" aria-current="page" href="#"
+              >Home</a
+            >
+            <!-- <a class="nav-link" id="navclr" href="#">ABOUT US</a> -->
+            <a class="nav-link" id="navclr" href="#">Products</a>
+            <a class="nav-link" id="navclr">Features</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleControls" id="carouselimg" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="carouselimg">
+            <img src="images/296036366_108358878638735_1929393914407539603_n.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="card" id="card1" style="width: 18rem;">
+        <img src="images/WhatsApp Image 2022-10-03 at 1.26.08 PM.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Graphic T-shirts</h5>
+          <p class="card-text">Chill out, relax and have an open mind.
+            Black And White color is available
+             </p>
+
+             <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal" class="btn btn-primary alert" id="cardbtn"
+    >
+      Rs. 900
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title " id="exampleModalLabel" id="alertp"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <h1 id="alertp">Order Now</h1>
+              <p id="alertp">
+                
+                To order this unique T-Shirt...  <img src="images/WhatsApp Image 2022-10-03 at 1.26.08 PM.jpeg" width="90px" height="90px" alt="">
+                <br> CONTACT US THROUGH :</p>
+              <a href="">FACEBOOK</a>
+              <br>
+              <br>
+              <a href="">WHATSAPP</a>
+            </p>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+
+    
+
+
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
